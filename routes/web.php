@@ -18,7 +18,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('test', function(){
-  return response()->json(['message' => 'Test route working!!!']);
+  return response()->json(['message' => 'WOW, Test route working!!!']);
 });
 
 require __DIR__.'/auth.php';
